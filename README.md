@@ -18,7 +18,7 @@ Java で出力する（コンソール画面に文字を表示する）には Sy
 
 ## Java での出力方法
 
-Javaでは、単純に標準出力（画面）に出力を送るために使うことができる。
+Javaで文字を標準出力するには、次のように書く。
 
 ``` console
 System.out.println();
@@ -40,7 +40,6 @@ public class App {
     }
 
 }
-
 ``` 
 
 実行結果:
@@ -48,7 +47,7 @@ public class App {
 I print out the one line.
 ```
 
-ここでは、println() メソッドを使用して文字列を表示た。
+ここでは、println() メソッドを使用して文字列を表示した。
 
 ## println（）、print（）、printf（）の違い
 
@@ -99,4 +98,5 @@ class Variables {
 5
 -10.6
 ```
+
 整数や変数などを表示するには、引用符を使用しない。

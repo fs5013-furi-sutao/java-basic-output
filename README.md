@@ -55,6 +55,8 @@ I print out the one line.
 * println(): print() メソッドと同様に、引用符内に文字列し、カーソルを次の行の先頭に移動させる
 * printf(): 書式を指定して文字列を出力する（C / C ++ プログラミングの printf と同じ）
 
+println は print line （1行出力する）の略である。
+
 ## 例1: print() と println()
 
 ``` java

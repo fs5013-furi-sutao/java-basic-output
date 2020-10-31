@@ -11,4 +11,18 @@ Javaでは、単純に標準出力（画面）に出力を送るために使う�
 ```console
 System.out.plinln();
 ```
+ビギナーは、軽く読み流せばいいが、念のため System.out.println の内容を見ておく。
+- System: クラス呼び出し
+- out: すべてに公開（public）する
+
+ビギナーは分からないくても心配しないでね。後の内容、クラス（class）、アクセス修飾子（public）、静的メソッド（static）で詳しく学習する。
+
+1行、文字列を表示してみる。
+```java 
+public class App {
+    public static void main(String[] args) {
+        System.out.println("I print out the one line.");
+    }
+}
+```
 

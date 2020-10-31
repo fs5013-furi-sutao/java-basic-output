@@ -1,7 +1,7 @@
 # Java の基本的な出力
 Java の基本的な出力
 
-## このページのまとめ
+## 最初に（要点）
 Java で出力する（コンソール画面に文字を表示する）には System.out.println() を使う。
 
 用途に合わせて他にも、改行のない System.out.print()、文字を当てはめて使う System.out.printf() がある。
